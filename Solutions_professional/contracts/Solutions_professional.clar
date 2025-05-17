@@ -163,7 +163,6 @@
     (get total-earned performer-data)
   )
 )
-
 ;; Generate receipt for a performance
 (define-read-only (generate-receipt (performance-id uint))
   (let ((performance-data (default-to 
