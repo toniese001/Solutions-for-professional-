@@ -61,7 +61,6 @@
     )
   )
 )
-
 ;; Schedule a new performance
 (define-public (schedule-performance (venue (string-utf8 100)) (duration uint) (date uint))
   (let ((performer-data (default-to 
