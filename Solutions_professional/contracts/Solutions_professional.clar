@@ -319,7 +319,6 @@
       (ok true))
   )
 )
-
 ;; Process payment at a specific index
 (define-private (process-payment-at-index (performer-list (list 10 principal)) 
                                           (percentages (list 10 uint)) 
