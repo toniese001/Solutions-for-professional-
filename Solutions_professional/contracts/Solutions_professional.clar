@@ -89,7 +89,6 @@
     )
   )
 )
-
 ;; Make payment for a performance
 (define-public (make-payment (performance-id uint))
   (let ((performance-data (default-to 
