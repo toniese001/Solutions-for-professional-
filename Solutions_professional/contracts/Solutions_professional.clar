@@ -135,7 +135,6 @@
     (map-get? performers performer-address)
   )
 )
-
 ;; Get performance details
 (define-read-only (get-performance-details (performance-id uint))
   (default-to 
